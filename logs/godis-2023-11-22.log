@@ -1,0 +1,43 @@
+[ERROR][database.go:38] 2023/11/22 09:02:05 runtime error: index out of range [1] with length 1
+[INFO][handler.go:91] 2023/11/22 09:08:18 handler shutting down
+[INFO][handler.go:59] 2023/11/22 09:08:18 connection closed: 127.0.0.1:41608
+[INFO][handler.go:66] 2023/11/22 09:08:18 connection closed: 127.0.0.1:41608
+[INFO][handler.go:91] 2023/11/22 09:08:18 handler shutting down
+[ERROR][database.go:38] 2023/11/22 09:08:57 runtime error: index out of range [1] with length 1
+[INFO][handler.go:91] 2023/11/22 09:18:18 handler shutting down
+[INFO][handler.go:59] 2023/11/22 09:18:18 connection closed: 127.0.0.1:41818
+[INFO][handler.go:66] 2023/11/22 09:18:18 connection closed: 127.0.0.1:41818
+[INFO][handler.go:91] 2023/11/22 09:18:18 handler shutting down
+[INFO][handler.go:91] 2023/11/22 09:20:57 handler shutting down
+[INFO][handler.go:59] 2023/11/22 09:20:57 connection closed: 127.0.0.1:41876
+[INFO][handler.go:66] 2023/11/22 09:20:57 connection closed: 127.0.0.1:41876
+[INFO][handler.go:91] 2023/11/22 09:20:57 handler shutting down
+[INFO][handler.go:91] 2023/11/22 09:25:18 handler shutting down
+[INFO][handler.go:59] 2023/11/22 09:25:18 connection closed: 127.0.0.1:41929
+[INFO][handler.go:66] 2023/11/22 09:25:18 connection closed: 127.0.0.1:41929
+[INFO][handler.go:91] 2023/11/22 09:25:18 handler shutting down
+[INFO][handler.go:91] 2023/11/22 09:29:04 handler shutting down
+[INFO][handler.go:59] 2023/11/22 09:29:04 connection closed: 127.0.0.1:42001
+[INFO][handler.go:66] 2023/11/22 09:29:04 connection closed: 127.0.0.1:42001
+[INFO][handler.go:91] 2023/11/22 09:29:04 handler shutting down
+[INFO][handler.go:91] 2023/11/22 10:24:42 handler shutting down
+[INFO][handler.go:59] 2023/11/22 10:24:42 connection closed: 127.0.0.1:42057
+[INFO][handler.go:66] 2023/11/22 10:24:42 connection closed: 127.0.0.1:42057
+[INFO][handler.go:91] 2023/11/22 10:24:42 handler shutting down
+[INFO][handler.go:91] 2023/11/22 17:03:56 handler shutting down
+[INFO][handler.go:59] 2023/11/22 17:03:56 connection closed: 127.0.0.1:12040
+[INFO][handler.go:66] 2023/11/22 17:03:56 connection closed: 127.0.0.1:12040
+[INFO][handler.go:91] 2023/11/22 17:03:56 handler shutting down
+[INFO][handler.go:91] 2023/11/22 17:12:16 handler shutting down
+[INFO][handler.go:59] 2023/11/22 17:12:16 connection closed: 127.0.0.1:12085
+[INFO][handler.go:66] 2023/11/22 17:12:16 connection closed: 127.0.0.1:12085
+[INFO][handler.go:91] 2023/11/22 17:12:16 handler shutting down
+[INFO][handler.go:91] 2023/11/22 17:32:20 handler shutting down
+[INFO][handler.go:59] 2023/11/22 17:32:20 connection closed: 127.0.0.1:12167
+[INFO][handler.go:66] 2023/11/22 17:32:20 connection closed: 127.0.0.1:12167
+[INFO][handler.go:91] 2023/11/22 17:32:20 handler shutting down
+[ERROR][aof.go:108] 2023/11/22 17:47:11 empty payload
+[INFO][handler.go:91] 2023/11/22 17:49:26 handler shutting down
+[INFO][handler.go:59] 2023/11/22 17:49:26 connection closed: 127.0.0.1:12551
+[INFO][handler.go:66] 2023/11/22 17:49:26 connection closed: 127.0.0.1:12551
+[INFO][handler.go:91] 2023/11/22 17:49:26 handler shutting down
