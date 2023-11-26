@@ -1,0 +1,41 @@
+[ERROR][aof.go:109] 2023/11/24 10:07:43 empty payload
+[ERROR][handler.go:77] 2023/11/24 10:12:05 require multi bulk reply
+[ERROR][handler.go:77] 2023/11/24 10:12:46 require multi bulk reply
+[ERROR][handler.go:77] 2023/11/24 10:12:46 require multi bulk reply
+[ERROR][handler.go:77] 2023/11/24 10:12:46 require multi bulk reply
+[INFO][handler.go:59] 2023/11/24 10:13:25 connection closed: 127.0.0.1:58475
+[INFO][handler.go:66] 2023/11/24 10:13:25 connection closed: 127.0.0.1:58475
+[INFO][handler.go:91] 2023/11/24 10:13:29 handler shutting down
+[ERROR][aof.go:109] 2023/11/24 10:52:36 empty payload
+[INFO][handler.go:97] 2023/11/24 10:52:38 handler shutting down
+[ERROR][aof.go:109] 2023/11/24 10:57:22 empty payload
+[INFO][handler.go:97] 2023/11/24 11:04:28 handler shutting down
+[INFO][handler.go:65] 2023/11/24 11:04:28 connection closed: 127.0.0.1:25784
+[INFO][handler.go:72] 2023/11/24 11:04:28 connection closed: 127.0.0.1:25784
+[INFO][handler.go:97] 2023/11/24 11:04:28 handler shutting down
+[ERROR][aof.go:108] 2023/11/24 11:04:30 empty payload
+[INFO][handler.go:65] 2023/11/24 11:04:39 connection closed: 127.0.0.1:26114
+[INFO][handler.go:72] 2023/11/24 11:04:39 connection closed: 127.0.0.1:26114
+[INFO][handler.go:97] 2023/11/24 11:06:01 handler shutting down
+[INFO][handler.go:65] 2023/11/24 11:06:01 connection closed: 127.0.0.1:26121
+[INFO][handler.go:72] 2023/11/24 11:06:01 connection closed: 127.0.0.1:26121
+[INFO][handler.go:97] 2023/11/24 11:06:01 handler shutting down
+[ERROR][aof.go:108] 2023/11/24 11:06:54 empty payload
+[INFO][handler.go:97] 2023/11/24 11:09:38 handler shutting down
+[INFO][handler.go:65] 2023/11/24 11:09:38 connection closed: 127.0.0.1:26269
+[INFO][handler.go:72] 2023/11/24 11:09:38 connection closed: 127.0.0.1:26269
+[INFO][handler.go:97] 2023/11/24 11:09:38 handler shutting down
+[ERROR][aof.go:108] 2023/11/24 11:09:40 empty payload
+[INFO][handler.go:65] 2023/11/24 11:09:47 connection closed: 127.0.0.1:26376
+[INFO][handler.go:72] 2023/11/24 11:09:47 connection closed: 127.0.0.1:26376
+[INFO][handler.go:97] 2023/11/24 11:09:54 handler shutting down
+[INFO][handler.go:65] 2023/11/24 11:09:54 connection closed: 127.0.0.1:26389
+[INFO][handler.go:72] 2023/11/24 11:09:54 connection closed: 127.0.0.1:26389
+[INFO][handler.go:97] 2023/11/24 11:09:54 handler shutting down
+[ERROR][aof.go:108] 2023/11/24 11:10:25 empty payload
+[ERROR][aof.go:108] 2023/11/24 11:10:26 empty payload
+[ERROR][main.go:44] 2023/11/24 11:10:26 listen tcp 0.0.0.0:6379: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO][handler.go:97] 2023/11/24 11:24:35 handler shutting down
+[INFO][handler.go:65] 2023/11/24 11:24:35 connection closed: 127.0.0.1:26515
+[INFO][handler.go:72] 2023/11/24 11:24:35 connection closed: 127.0.0.1:26515
+[INFO][handler.go:97] 2023/11/24 11:24:35 handler shutting down

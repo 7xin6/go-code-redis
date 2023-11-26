@@ -54,10 +54,8 @@ type StatusReply struct {
 	Status string
 }
 
-var theStatusReply = new(StatusReply)
-
 func MakeStatusReply(status string) *StatusReply {
-	return theStatusReply
+	return &StatusReply{Status: status}
 }
 func (s *StatusReply) ToBytes() []byte {
 	return []byte("+" + s.Status + CRLF)

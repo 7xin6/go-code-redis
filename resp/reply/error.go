@@ -4,10 +4,15 @@ type ErrReply struct {
 	Status string
 }
 
+
+
 var errBytes = []byte("-err\r\n")
 
 func (e *ErrReply) ToBytes() []byte {
 	return errBytes
+}
+func (e *ErrReply) Error() string {
+	return "Err"
 }
 
 func MakeErrReply(status string) *ErrReply {

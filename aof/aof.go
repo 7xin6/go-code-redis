@@ -1,7 +1,6 @@
 package aof
 
 import (
-	"fmt"
 	"go-redis/config"
 	databaseface "go-redis/interface/database"
 	"go-redis/lib/logger"
@@ -102,7 +101,7 @@ func (handler *AofHandler) LoadAof() {
 			if p.Err == io.EOF {
 				break
 			}
-			logger.Error(p.Err)
+			logger.Error("parse error: " + p.Err.Error())
 			continue
 		}
 		if p.Data == nil {
@@ -110,14 +109,13 @@ func (handler *AofHandler) LoadAof() {
 			continue
 		}
 		r, ok := p.Data.(*reply.MultiBulkReply)
-		fmt.Println()
 		if !ok {
 			logger.Error("need multi bulk")
 			continue
 		}
 		rep := handler.database.Exec(fackConn, r.Args)
 		if reply.IsErrReply(rep) {
-			logger.Error(rep)
+			logger.Error("exec err", err)
 		}
 	}
 }
